@@ -6,7 +6,7 @@ import speech_recognition as sr
 
 ffmpeg_directory = "C:\\Users\\visha\\miniconda3\\envs\\myenv\\Lib\\site-packages\\ffmpeg\\bin"
 os.environ["PATH"] += os.pathsep + ffmpeg_directory
-palm.configure(api_key="AIzaSyBLlzdrieE9TzquvWUomsxtAOUhShbBVPo")
+palm.configure(api_key="Your API key")
 
 model = "models/text-bison-001"
 
